@@ -10,21 +10,21 @@
     - Есть ощущение, что загружаются сразу несколько видом библиотеки jQuery - т.е. встречаются файлики `jquery.lazy.min.js?ver=1.5.10`, `jquery.js?ver=1.12.4` и `jquery-migrate.min.js?ver=1.4.1`.
     - Встречаются много файлов с js кодом вызова рекламы гугла а также конфигурации googletagmanager разной версии и какие то файлы сайта adfox
     - Еще js и css код сайта разных версий `app.js?ver=7` `app.js?ver=17` `app.js?ver=0.2.0` `app.css?ver=0.2.0` `all.min.js?ver=1.5.10` `all.min.css?ver=1.5.10` и другие.
-    ![]('screenshots/дублирование ресурсов/1.png')
-    ![]('screenshots/дублирование ресурсов/2.png')
-    ![]('screenshots/дублирование ресурсов/3.png')
-    ![]('screenshots/дублирование ресурсов/4.png')
-    ![]('screenshots/дублирование ресурсов/5.png')
-    ![]('screenshots/дублирование ресурсов/6.png')
-    ![]('screenshots/дублирование ресурсов/7.png')
+    ![]('screenshots/repeat/1.png')
+    ![]('screenshots/repeat/2.png')
+    ![]('screenshots/repeat/3.png')
+    ![]('screenshots/repeat/4.png')
+    ![]('screenshots/repeat/5.png')
+    ![]('screenshots/repeat/6.png')
+    ![]('screenshots/repeat/7.png')
   - ## Лишний размер ресурсов
     Отсортировал таблицу по столбцу size и сразу видно что картинки являются самыми объемными ресурсами на странице, по идее их можно сжать и существенно оптимизировать загрузку.
-    ![](screenshots/лишний размер ресурсов/1.png)
+    ![](screenshots/size/1.png)
   - ## Медленно загружающиеся ресурсы
     Те же самые картинки, которые можно пожать.
   - ## ресурсы, блокирующие загрузку
     Посмотрел на значение `DOMContentLoaded: 3.49 s`, на временной шкале отмерил примерно этот интервал и посмотрел, что есть в табличке В основном это js и css файлы, но встречаются также и картинки.
-    ![](screenshots/блокирующие загрузку/1.png)
+    ![](screenshots/blocking/1.png)
 
 - # Вкладка perfomance
   Профиль загрузки страницы `perfomance-profile.json`
